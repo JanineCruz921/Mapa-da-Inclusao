@@ -1,0 +1,13 @@
+body {
+    display: flex;
+    background-color: #c19225;
+    align-items: center;
+    justify-content: center;
+}
+
+.landingPage {
+    display: flex;
+    flex-direction: column;
+    background-color: #25c14f;
+    width: 100%;
+}

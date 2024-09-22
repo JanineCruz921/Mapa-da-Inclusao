@@ -3,7 +3,7 @@ import { deficiency } from "../models/deficiencyModel.js";
 let deficiencies = [
     { id: "1", nome: "autismo", tipo: "deficiência Intelectual" },
     { id: "2", nome: "deficiencia visual", tipo: "visual" },
-    {id:"3", nome:"deficiências Multiplas", tipo:"multiplas"}
+    {id:"3", nome:"deficiências Motora", tipo:"motora"}
 ];
 
 export const createNewDeficiency = (req,res) =>{
@@ -20,8 +20,8 @@ res.send('deficiency deleted')
 
 export const editDeficiency = (req,res) =>{
 const editId = req.params.id;
-    const newname = req.body.nome;
-    const newtype = req.body.tipo;
+    const newnome = req.body.nome;
+    const newtipo = req.body.tipo;
 res.send('deficiency uploaded')
 }
 

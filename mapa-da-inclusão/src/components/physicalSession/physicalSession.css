@@ -1,0 +1,10 @@
+.physicalSession{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color:#A7D3E0;
+    min-width: 100%;
+    min-height: 115vh;
+    justify-content: space-evenly;
+}

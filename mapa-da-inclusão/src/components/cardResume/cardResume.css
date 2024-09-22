@@ -1,0 +1,9 @@
+.cardResume{
+display: flex;
+flex-direction: column;
+width: 500px;
+margin-right: 75px;
+justify-content: space-around;
+height: 450px;
+margin-left: 63px;
+}

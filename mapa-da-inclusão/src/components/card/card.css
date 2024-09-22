@@ -1,0 +1,12 @@
+.divCard {
+    display: flex;
+    flex-direction: column;
+    background-color: #991818;
+    color: white;
+    width: 550px;
+    margin-left: 75px;
+    justify-content: space-around;
+    height: 450px;
+    border-radius: 20px;
+}
+

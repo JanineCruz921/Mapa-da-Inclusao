@@ -113,3 +113,19 @@ res.send('ong uploaded')
 export const getOng = (req,res) =>{
         res.json({ongs});
 }
+
+export const getOngIntelectual = (req,res) =>{
+    const ongIntelectual = ongs.filter(item => item.deficiencia === '1');
+    res.json({ ongIntelectual});
+}
+
+export const getOngVisual = (req,res) =>{
+    const ongVisual = ongs.filter(item => item.deficiencia === '2');
+    res.json({ ongVisual});
+}
+
+export const getOngPhysical = (req,res) =>{
+    const OngPhysical = ongs.filter(item => item.deficiencia === '3');
+    res.json({ OngPhysical});
+}
+
