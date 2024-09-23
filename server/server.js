@@ -5,10 +5,11 @@ import { routerUser } from './routes/userRoutes.js';
 const server = express()
 server.listen(3095)
 
+
 server.use(express.json());
 
 server.use(routerDeficiency);
 
-server.use(routerOng)
+server.use(routerOng);
 
 server.use(routerUser);

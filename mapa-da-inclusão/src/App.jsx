@@ -4,12 +4,14 @@ import { LandingPageLayout } from './components/LandingPageLayout/landingPage'
 
 
 function App() {
-
   return (
-      <div>
-       <LandingPageLayout/>
-      </div>
+    <div>
+      <LandingPageLayout />
+    </div>
+
   )
 }
 
 export default App
+
+

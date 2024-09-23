@@ -10,7 +10,7 @@ export function LandingPageLayout (){
     return (<session className ="landingPage" >
         <div><Menu/></div>
         <div><PresentationSession/></div>
-        <div><IntelectualSession/></div>
+        <div><IntelectualSession /></div>
         <div><VisualSession/></div>
         <div><PhysicalSession/></div>
         <div><Footer/></div>

@@ -1,4 +1,4 @@
-.divCard {
+.Card {
     display: flex;
     flex-direction: column;
     background-color: #991818;
@@ -8,5 +8,13 @@
     justify-content: space-around;
     height: 450px;
     border-radius: 20px;
+}
+
+.cardContent{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    height: 90%;
 }
 
